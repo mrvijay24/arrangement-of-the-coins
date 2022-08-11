@@ -1,0 +1,19 @@
+//arrangement of the coins program
+#include<stdio.h>
+int main()
+{
+	int n,i;
+	printf("enter the number of coins:\n");
+	scanf("%d",&n);
+	for(i=1;i<=n;i++)			//enjoy pangagooo
+	{
+		if(n-i>=0)
+		{
+			n=n-i;
+		}else
+		{
+			break;
+		}
+	}
+	printf("%d",i-1);
+}
